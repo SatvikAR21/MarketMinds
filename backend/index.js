@@ -215,3 +215,6 @@ app.listen(PORT, () => {
   mongoose.connect(uri);
   console.log("DB started!");
 });
+
+
+// This code sets up an Express server that connects to a MongoDB database using Mongoose. It defines routes to retrieve holdings and positions, and to save new orders. The server listens on a specified port and connects to the MongoDB database using the connection URI from environment variables.
